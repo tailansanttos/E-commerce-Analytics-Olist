@@ -1,37 +1,40 @@
 import os
 import pandas as pd
+import pandas_gbq as pbq
 from google.cloud import bigquery
 from pathlib import Path
+import logging
 
+logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s',
+                    handlers=[logging.FileHandler('C:/E-commerce Analytics Olist/logs/main.log', encoding='utf-8'),
+                               logging.StreamHandler()])
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "projeto-olist-elt-edaa00bbd190.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:/E-commerce Analytics Olist/projeto-olist-elt-edaa00bbd190.json"
 
-def carregar_dados_rar_para_bronze():
+def load_silver_to_bigquery():
     client = bigquery.Client()
     id_projeto  = client.project
-    dataset_id = "camada_bronze_olist"
+    dataset_id = "olist_silver"
 
-    raiz_projeto = Path(__file__).parent
-    caminho_raw = raiz_projeto / "data" / "raw"
+    raiz_projeto = Path(__file__).parent.parent.parent
+    caminho_silver = raiz_projeto / "data" / "silver"
 
-    arquivos = list(caminho_raw.glob("*.csv"))
-    print(f'Encontrados {len(arquivos)} arquivos.')
+    arquivos_parquet = list(caminho_silver.glob("*.parquet"))
+    if not arquivos_parquet:
+        logging.warning(f'Nenhum dado encontrado.')
+        return
 
-    for arquivo in arquivos:
-        # PEga o nome do arquivo sem a extensão CSV, para usar como NOME DA TABELA
-        nome_tabela = arquivo.stem
-        destino = f"{id_projeto}.{dataset_id}.{nome_tabela}"
+    for arquivo in arquivos_parquet:
+        nome_tabela = arquivo.name.replace(".parquet", "")
+        destino_bq = f'{dataset_id}.{nome_tabela}'
+        logging.info(f'Inicianddo UPLOAD de {nome_tabela} para o Bigquery.')
 
-        print(f"Lendo {arquivo.name}")
-        df = pd.read_csv(arquivo)
+        try:
+            df = pd.read_parquet(arquivo)
+            pbq.to_gbq(dataframe=df,destination_table=destino_bq, project_id=id_projeto, if_exists='replace')
+            logging.info(f'Sucesso Tabela {destino_bq} carregada.')
+        except Exception as e:
+            logging.error(f'Erro ao subir tabela {nome_tabela}: {e}')
 
-        # Nome das colunas pra STRING
-        df.columns = df.columns.astype(str)
-
-        job_config = bigquery.LoadJobConfig(write_disposition="WRITE_TRUNCATE")
-
-        job = client.load_table_from_dataframe(df, destino, job_config=job_config)
-        job.result()
-
-        print(f"Tabeça {nome_tabela} carregada com {job.output_rows} linhas")
+   
     
