@@ -7,3 +7,356 @@
 2026-07-15 15:52:31,253 - INFO - Arquivos copiados com sucesso.
 2026-07-15 15:52:31,262 - INFO - Arquivos copiados com sucesso.
 2026-07-15 15:52:31,273 - INFO - Arquivos copiados com sucesso.
+2026-08-06 15:49:23,313 - INFO - Iniciando a pipeline ELT.
+2026-08-06 15:49:23,314 - INFO - Extraindo dados.
+2026-08-06 15:49:24,297 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:09:55,073 - INFO - Iniciando a pipeline ELT.
+2026-08-20 12:09:55,074 - INFO - Extraindo dados.
+2026-08-20 12:09:56,280 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:09:56,912 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:09:56,979 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:09:57,034 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:09:57,061 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:09:57,113 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:09:57,129 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:09:57,142 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:09:57,156 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:09:57,156 - INFO - Convertendo dados para parquet.
+2026-08-20 12:09:57,157 - WARNING - Nenhum arquivo CSV encontrado na pasta C:\E-commerce Analytics Olist\pipeline\data\raw
+2026-08-20 12:10:14,875 - INFO - Iniciando a pipeline ELT.
+2026-08-20 12:10:14,876 - INFO - Extraindo dados.
+2026-08-20 12:10:15,747 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:10:16,059 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:10:16,080 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:10:16,094 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:10:16,100 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:10:16,114 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:10:16,118 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:10:16,119 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:10:16,120 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:10:16,120 - INFO - Convertendo dados para parquet.
+2026-08-20 12:10:16,122 - INFO - Processando: olist_customers_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\customers.parquet
+2026-08-20 12:10:16,647 - INFO - Processando: olist_geolocation_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\geolocation.parquet
+2026-08-20 12:10:17,863 - INFO - Processando: olist_orders_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\orders.parquet
+2026-08-20 12:10:18,462 - INFO - Processando: olist_order_items_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_items.parquet
+2026-08-20 12:10:18,830 - INFO - Processando: olist_order_payments_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_payments.parquet
+2026-08-20 12:10:19,001 - INFO - Processando: olist_order_reviews_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_reviews.parquet
+2026-08-20 12:10:19,538 - INFO - Processando: olist_products_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\products.parquet
+2026-08-20 12:10:19,701 - INFO - Processando: olist_sellers_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\sellers.parquet
+2026-08-20 12:10:19,725 - INFO - Processando: product_category_name_translation.csv -> C:\E-commerce Analytics Olist\data\bronze\product_category_name_translation.csv.parquet
+2026-08-20 12:13:21,664 - INFO - Iniciando a pipeline ELT.
+2026-08-20 12:13:21,664 - INFO - Extraindo dados.
+2026-08-20 12:13:22,609 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:13:22,996 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:13:23,017 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:13:23,030 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:13:23,037 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:13:23,052 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:13:23,055 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:13:23,056 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:13:23,057 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:13:23,058 - INFO - Convertendo dados para parquet.
+2026-08-20 12:13:23,059 - INFO - Processando: olist_customers_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\customers.parquet
+2026-08-20 12:13:23,358 - INFO - Processando: olist_geolocation_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\geolocation.parquet
+2026-08-20 12:13:24,513 - INFO - Processando: olist_orders_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\orders.parquet
+2026-08-20 12:13:25,081 - INFO - Processando: olist_order_items_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_items.parquet
+2026-08-20 12:13:25,458 - INFO - Processando: olist_order_payments_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_payments.parquet
+2026-08-20 12:13:25,630 - INFO - Processando: olist_order_reviews_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_reviews.parquet
+2026-08-20 12:13:26,194 - INFO - Processando: olist_products_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\products.parquet
+2026-08-20 12:13:26,305 - INFO - Processando: olist_sellers_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\sellers.parquet
+2026-08-20 12:13:26,335 - INFO - Processando: product_category_name_translation.csv -> C:\E-commerce Analytics Olist\data\bronze\product_category_name_translation.parquet
+2026-08-20 12:15:06,255 - INFO - Iniciando a pipeline ELT.
+2026-08-20 12:15:06,255 - INFO - Extraindo dados.
+2026-08-20 12:15:07,101 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:15:07,530 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:15:07,551 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:15:07,566 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:15:07,573 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:15:07,587 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:15:07,590 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:15:07,591 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:15:07,593 - INFO - Arquivos copiados com sucesso.
+2026-08-20 12:15:07,594 - INFO - Convertendo dados para parquet.
+2026-08-20 12:15:07,595 - INFO - Processando: olist_customers_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\customers.parquet
+2026-08-20 12:15:07,879 - INFO - Processando: olist_geolocation_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\geolocation.parquet
+2026-08-20 12:15:09,053 - INFO - Processando: olist_orders_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\orders.parquet
+2026-08-20 12:15:09,617 - INFO - Processando: olist_order_items_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_items.parquet
+2026-08-20 12:15:09,996 - INFO - Processando: olist_order_payments_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_payments.parquet
+2026-08-20 12:15:10,166 - INFO - Processando: olist_order_reviews_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_reviews.parquet
+2026-08-20 12:15:10,683 - INFO - Processando: olist_products_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\products.parquet
+2026-08-20 12:15:10,779 - INFO - Processando: olist_sellers_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\sellers.parquet
+2026-08-20 12:15:10,801 - INFO - Processando: product_category_name_translation.csv -> C:\E-commerce Analytics Olist\data\bronze\product_category_name_translation.parquet
+2026-08-21 10:36:02,976 - INFO - Iniciando a pipeline ELT.
+2026-08-21 10:36:02,976 - INFO - Extraindo dados.
+2026-08-21 10:36:04,045 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:36:04,542 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:36:04,608 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:36:04,684 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:36:04,713 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:36:04,765 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:36:04,782 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:36:04,793 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:36:04,810 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:36:04,810 - INFO - Convertendo dados para parquet.
+2026-08-21 10:36:04,811 - INFO - Processando: olist_customers_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\customers.parquet
+2026-08-21 10:36:05,345 - INFO - Processando: olist_geolocation_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\geolocation.parquet
+2026-08-21 10:36:06,518 - INFO - Processando: olist_orders_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\orders.parquet
+2026-08-21 10:36:07,107 - INFO - Processando: olist_order_items_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_items.parquet
+2026-08-21 10:36:07,471 - INFO - Processando: olist_order_payments_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_payments.parquet
+2026-08-21 10:36:07,640 - INFO - Processando: olist_order_reviews_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_reviews.parquet
+2026-08-21 10:36:08,161 - INFO - Processando: olist_products_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\products.parquet
+2026-08-21 10:36:08,257 - INFO - Processando: olist_sellers_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\sellers.parquet
+2026-08-21 10:36:08,278 - INFO - Processando: product_category_name_translation.csv -> C:\E-commerce Analytics Olist\data\bronze\product_category_name_translation.parquet
+2026-08-21 10:36:08,284 - INFO - Iniciando transformações.
+2026-08-21 10:36:08,285 - INFO - Iniciando trasnformações da camada Silver
+2026-08-21 10:36:08,285 - WARNING - Nenhum arquivo encontrado na pasta C:\E-commerce Analytics Olist\pipeline\data\bronze
+2026-08-21 10:36:08,286 - ERROR - Nenhum dado extraido.
+2026-08-21 10:38:14,242 - INFO - Iniciando a pipeline ELT.
+2026-08-21 10:38:14,242 - INFO - Extraindo dados.
+2026-08-21 10:38:15,088 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:38:15,456 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:38:15,492 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:38:15,507 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:38:15,513 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:38:15,527 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:38:15,530 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:38:15,531 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:38:15,533 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:38:15,533 - INFO - Convertendo dados para parquet.
+2026-08-21 10:38:15,534 - INFO - Processando: olist_customers_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\customers.parquet
+2026-08-21 10:38:15,834 - INFO - Processando: olist_geolocation_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\geolocation.parquet
+2026-08-21 10:38:17,022 - INFO - Processando: olist_orders_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\orders.parquet
+2026-08-21 10:38:17,620 - INFO - Processando: olist_order_items_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_items.parquet
+2026-08-21 10:38:18,005 - INFO - Processando: olist_order_payments_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_payments.parquet
+2026-08-21 10:38:18,181 - INFO - Processando: olist_order_reviews_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_reviews.parquet
+2026-08-21 10:38:18,740 - INFO - Processando: olist_products_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\products.parquet
+2026-08-21 10:38:18,849 - INFO - Processando: olist_sellers_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\sellers.parquet
+2026-08-21 10:38:18,879 - INFO - Processando: product_category_name_translation.csv -> C:\E-commerce Analytics Olist\data\bronze\product_category_name_translation.parquet
+2026-08-21 10:38:18,885 - INFO - Iniciando transformações.
+2026-08-21 10:38:18,886 - INFO - Iniciando trasnformações da camada Silver
+2026-08-21 10:38:18,886 - WARNING - Nenhum arquivo encontrado na pasta C:\E-commerce Analytics Olist\pipeline\data\bronze
+2026-08-21 10:38:18,887 - ERROR - Nenhum dado extraido.
+2026-08-21 10:39:10,962 - INFO - Iniciando a pipeline ELT.
+2026-08-21 10:39:10,962 - INFO - Extraindo dados.
+2026-08-21 10:39:12,141 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:39:12,524 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:39:12,550 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:39:12,565 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:39:12,572 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:39:12,589 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:39:12,593 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:39:12,595 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:39:12,596 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:39:12,596 - INFO - Convertendo dados para parquet.
+2026-08-21 10:39:12,597 - INFO - Processando: olist_customers_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\customers.parquet
+2026-08-21 10:39:12,905 - INFO - Processando: olist_geolocation_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\geolocation.parquet
+2026-08-21 10:39:14,082 - INFO - Processando: olist_orders_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\orders.parquet
+2026-08-21 10:39:14,660 - INFO - Processando: olist_order_items_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_items.parquet
+2026-08-21 10:39:15,025 - INFO - Processando: olist_order_payments_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_payments.parquet
+2026-08-21 10:39:15,195 - INFO - Processando: olist_order_reviews_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_reviews.parquet
+2026-08-21 10:39:15,725 - INFO - Processando: olist_products_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\products.parquet
+2026-08-21 10:39:15,823 - INFO - Processando: olist_sellers_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\sellers.parquet
+2026-08-21 10:39:15,844 - INFO - Processando: product_category_name_translation.csv -> C:\E-commerce Analytics Olist\data\bronze\product_category_name_translation.parquet
+2026-08-21 10:39:15,849 - INFO - Iniciando transformações.
+2026-08-21 10:39:15,849 - INFO - Iniciando trasnformações da camada Silver
+2026-08-21 10:39:15,850 - WARNING - Nenhum arquivo encontrado na pasta C:\E-commerce Analytics Olist\pipeline\transform\silver\transform.py\data\bronze
+2026-08-21 10:39:15,851 - ERROR - Nenhum dado extraido.
+2026-08-21 10:39:29,501 - INFO - Iniciando a pipeline ELT.
+2026-08-21 10:39:29,508 - INFO - Extraindo dados.
+2026-08-21 10:39:30,398 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:39:30,728 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:39:30,750 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:39:30,766 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:39:30,772 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:39:30,786 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:39:30,789 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:39:30,790 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:39:30,791 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:39:30,792 - INFO - Convertendo dados para parquet.
+2026-08-21 10:39:30,793 - INFO - Processando: olist_customers_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\customers.parquet
+2026-08-21 10:39:31,074 - INFO - Processando: olist_geolocation_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\geolocation.parquet
+2026-08-21 10:39:32,203 - INFO - Processando: olist_orders_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\orders.parquet
+2026-08-21 10:39:32,759 - INFO - Processando: olist_order_items_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_items.parquet
+2026-08-21 10:39:33,126 - INFO - Processando: olist_order_payments_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_payments.parquet
+2026-08-21 10:39:33,304 - INFO - Processando: olist_order_reviews_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_reviews.parquet
+2026-08-21 10:39:33,818 - INFO - Processando: olist_products_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\products.parquet
+2026-08-21 10:39:33,913 - INFO - Processando: olist_sellers_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\sellers.parquet
+2026-08-21 10:39:33,936 - INFO - Processando: product_category_name_translation.csv -> C:\E-commerce Analytics Olist\data\bronze\product_category_name_translation.parquet
+2026-08-21 10:39:33,941 - INFO - Iniciando transformações.
+2026-08-21 10:39:33,941 - INFO - Iniciando trasnformações da camada Silver
+2026-08-21 10:39:34,393 - INFO - Arquivo customers carregado com sucesso.
+2026-08-21 10:39:34,393 - INFO - Iniciando carregamento para a camada Silver
+2026-08-21 10:40:33,617 - INFO - Iniciando a pipeline ELT.
+2026-08-21 10:40:33,617 - INFO - Extraindo dados.
+2026-08-21 10:40:34,414 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:40:34,771 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:40:34,804 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:40:34,819 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:40:34,825 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:40:34,840 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:40:34,844 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:40:34,845 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:40:34,846 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:40:34,846 - INFO - Convertendo dados para parquet.
+2026-08-21 10:40:34,847 - INFO - Processando: olist_customers_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\customers.parquet
+2026-08-21 10:40:35,142 - INFO - Processando: olist_geolocation_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\geolocation.parquet
+2026-08-21 10:40:36,274 - INFO - Processando: olist_orders_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\orders.parquet
+2026-08-21 10:40:36,831 - INFO - Processando: olist_order_items_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_items.parquet
+2026-08-21 10:40:37,194 - INFO - Processando: olist_order_payments_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_payments.parquet
+2026-08-21 10:40:37,371 - INFO - Processando: olist_order_reviews_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_reviews.parquet
+2026-08-21 10:40:37,889 - INFO - Processando: olist_products_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\products.parquet
+2026-08-21 10:40:37,986 - INFO - Processando: olist_sellers_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\sellers.parquet
+2026-08-21 10:40:38,008 - INFO - Processando: product_category_name_translation.csv -> C:\E-commerce Analytics Olist\data\bronze\product_category_name_translation.parquet
+2026-08-21 10:40:38,014 - INFO - Iniciando transformações.
+2026-08-21 10:40:38,014 - INFO - Iniciando trasnformações da camada Silver
+2026-08-21 10:40:38,059 - INFO - Arquivo customers carregado com sucesso.
+2026-08-21 10:40:38,059 - INFO - Iniciando carregamento para a camada Silver
+2026-08-21 10:40:38,131 - INFO - Tabela customers salva com sucesso.
+2026-08-21 10:41:22,997 - INFO - Iniciando a pipeline ELT.
+2026-08-21 10:41:22,998 - INFO - Extraindo dados.
+2026-08-21 10:41:23,795 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:41:24,173 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:41:24,194 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:41:24,210 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:41:24,218 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:41:24,233 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:41:24,236 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:41:24,237 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:41:24,238 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:41:24,239 - INFO - Convertendo dados para parquet.
+2026-08-21 10:41:24,240 - INFO - Processando: olist_customers_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\customers.parquet
+2026-08-21 10:41:24,528 - INFO - Processando: olist_geolocation_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\geolocation.parquet
+2026-08-21 10:41:25,655 - INFO - Processando: olist_orders_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\orders.parquet
+2026-08-21 10:41:26,215 - INFO - Processando: olist_order_items_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_items.parquet
+2026-08-21 10:41:26,586 - INFO - Processando: olist_order_payments_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_payments.parquet
+2026-08-21 10:41:26,767 - INFO - Processando: olist_order_reviews_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_reviews.parquet
+2026-08-21 10:41:27,285 - INFO - Processando: olist_products_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\products.parquet
+2026-08-21 10:41:27,380 - INFO - Processando: olist_sellers_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\sellers.parquet
+2026-08-21 10:41:27,403 - INFO - Processando: product_category_name_translation.csv -> C:\E-commerce Analytics Olist\data\bronze\product_category_name_translation.parquet
+2026-08-21 10:41:27,408 - INFO - Iniciando transformações.
+2026-08-21 10:41:27,408 - INFO - Iniciando trasnformações da camada Silver
+2026-08-21 10:41:27,458 - INFO - Arquivo customers carregado com sucesso.
+2026-08-21 10:41:27,458 - INFO - Iniciando carregamento para a camada Silver
+2026-08-21 10:41:27,528 - INFO - Tabela customers salva com sucesso.
+2026-08-21 10:42:34,159 - INFO - Iniciando a pipeline ELT.
+2026-08-21 10:42:34,159 - INFO - Extraindo dados.
+2026-08-21 10:42:34,989 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:42:35,344 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:42:35,366 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:42:35,380 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:42:35,386 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:42:35,401 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:42:35,405 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:42:35,406 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:42:35,408 - INFO - Arquivos copiados com sucesso.
+2026-08-21 10:42:35,408 - INFO - Convertendo dados para parquet.
+2026-08-21 10:42:35,409 - INFO - Processando: olist_customers_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\customers.parquet
+2026-08-21 10:42:35,695 - INFO - Processando: olist_geolocation_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\geolocation.parquet
+2026-08-21 10:42:36,909 - INFO - Processando: olist_orders_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\orders.parquet
+2026-08-21 10:42:37,466 - INFO - Processando: olist_order_items_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_items.parquet
+2026-08-21 10:42:37,828 - INFO - Processando: olist_order_payments_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_payments.parquet
+2026-08-21 10:42:38,000 - INFO - Processando: olist_order_reviews_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_reviews.parquet
+2026-08-21 10:42:38,497 - INFO - Processando: olist_products_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\products.parquet
+2026-08-21 10:42:38,594 - INFO - Processando: olist_sellers_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\sellers.parquet
+2026-08-21 10:42:38,615 - INFO - Processando: product_category_name_translation.csv -> C:\E-commerce Analytics Olist\data\bronze\product_category_name_translation.parquet
+2026-08-21 10:42:38,620 - INFO - Iniciando transformações.
+2026-08-21 10:42:38,620 - INFO - Iniciando trasnformações da camada Silver
+2026-08-21 10:42:38,668 - INFO - Arquivo customers carregado com sucesso.
+2026-08-21 10:42:38,732 - INFO - Arquivo geolocation carregado com sucesso.
+2026-08-21 10:42:38,760 - INFO - Arquivo orders carregado com sucesso.
+2026-08-21 10:42:38,790 - INFO - Arquivo order_items carregado com sucesso.
+2026-08-21 10:42:38,811 - INFO - Arquivo order_payments carregado com sucesso.
+2026-08-21 10:42:38,837 - INFO - Arquivo order_reviews carregado com sucesso.
+2026-08-21 10:42:38,856 - INFO - Arquivo products carregado com sucesso.
+2026-08-21 10:42:38,867 - INFO - Arquivo product_category_name_translation carregado com sucesso.
+2026-08-21 10:42:38,883 - INFO - Arquivo sellers carregado com sucesso.
+2026-08-21 10:42:38,936 - INFO - Coluna order_purchase_timestamp mudada para o tipo DateTime.
+2026-08-21 10:42:38,989 - INFO - Coluna order_approved_at mudada para o tipo DateTime.
+2026-08-21 10:42:39,038 - INFO - Coluna order_delivered_carrier_date mudada para o tipo DateTime.
+2026-08-21 10:42:39,088 - INFO - Coluna order_delivered_customer_date mudada para o tipo DateTime.
+2026-08-21 10:42:39,113 - INFO - Coluna order_estimated_delivery_date mudada para o tipo DateTime.
+2026-08-21 10:42:39,261 - INFO - Iniciando carregamento para a camada Silver
+2026-08-21 10:42:39,329 - INFO - Tabela customers salva com sucesso.
+2026-08-21 10:42:39,343 - INFO - Tabela geolocation salva com sucesso.
+2026-08-21 10:42:39,453 - INFO - Tabela orders salva com sucesso.
+2026-08-21 10:42:39,534 - INFO - Tabela order_items salva com sucesso.
+2026-08-21 10:42:39,582 - INFO - Tabela order_payments salva com sucesso.
+2026-08-21 10:42:39,674 - INFO - Tabela order_reviews salva com sucesso.
+2026-08-21 10:42:39,725 - INFO - Tabela products salva com sucesso.
+2026-08-21 10:42:39,737 - INFO - Tabela product_category_name_translation salva com sucesso.
+2026-08-21 10:42:39,745 - INFO - Tabela sellers salva com sucesso.
+2026-08-21 11:06:43,451 - INFO - Iniciando a pipeline ELT.
+2026-08-21 11:06:43,452 - INFO - Extraindo dados.
+2026-08-21 11:06:44,387 - INFO - Arquivos copiados com sucesso.
+2026-08-21 11:06:44,710 - INFO - Arquivos copiados com sucesso.
+2026-08-21 11:06:44,732 - INFO - Arquivos copiados com sucesso.
+2026-08-21 11:06:44,747 - INFO - Arquivos copiados com sucesso.
+2026-08-21 11:06:44,754 - INFO - Arquivos copiados com sucesso.
+2026-08-21 11:06:44,768 - INFO - Arquivos copiados com sucesso.
+2026-08-21 11:06:44,771 - INFO - Arquivos copiados com sucesso.
+2026-08-21 11:06:44,772 - INFO - Arquivos copiados com sucesso.
+2026-08-21 11:06:44,773 - INFO - Arquivos copiados com sucesso.
+2026-08-21 11:06:44,773 - INFO - Convertendo dados para parquet.
+2026-08-21 11:06:44,774 - INFO - Processando: olist_customers_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\customers.parquet
+2026-08-21 11:06:45,083 - INFO - Processando: olist_geolocation_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\geolocation.parquet
+2026-08-21 11:06:46,326 - INFO - Processando: olist_orders_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\orders.parquet
+2026-08-21 11:06:46,923 - INFO - Processando: olist_order_items_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_items.parquet
+2026-08-21 11:06:47,317 - INFO - Processando: olist_order_payments_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_payments.parquet
+2026-08-21 11:06:47,488 - INFO - Processando: olist_order_reviews_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\order_reviews.parquet
+2026-08-21 11:06:47,990 - INFO - Processando: olist_products_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\products.parquet
+2026-08-21 11:06:48,084 - INFO - Processando: olist_sellers_dataset.csv -> C:\E-commerce Analytics Olist\data\bronze\sellers.parquet
+2026-08-21 11:06:48,108 - INFO - Processando: product_category_name_translation.csv -> C:\E-commerce Analytics Olist\data\bronze\product_category_name_translation.parquet
+2026-08-21 11:06:48,113 - INFO - Iniciando transformações.
+2026-08-21 11:06:48,113 - INFO - Iniciando trasnformações da camada Silver
+2026-08-21 11:06:48,161 - INFO - Arquivo customers carregado com sucesso.
+2026-08-21 11:06:48,226 - INFO - Arquivo geolocation carregado com sucesso.
+2026-08-21 11:06:48,258 - INFO - Arquivo orders carregado com sucesso.
+2026-08-21 11:06:48,282 - INFO - Arquivo order_items carregado com sucesso.
+2026-08-21 11:06:48,305 - INFO - Arquivo order_payments carregado com sucesso.
+2026-08-21 11:06:48,333 - INFO - Arquivo order_reviews carregado com sucesso.
+2026-08-21 11:06:48,347 - INFO - Arquivo products carregado com sucesso.
+2026-08-21 11:06:48,351 - INFO - Arquivo product_category_name_translation carregado com sucesso.
+2026-08-21 11:06:48,367 - INFO - Arquivo sellers carregado com sucesso.
+2026-08-21 11:06:48,419 - INFO - Coluna order_purchase_timestamp mudada para o tipo DateTime.
+2026-08-21 11:06:48,470 - INFO - Coluna order_approved_at mudada para o tipo DateTime.
+2026-08-21 11:06:48,520 - INFO - Coluna order_delivered_carrier_date mudada para o tipo DateTime.
+2026-08-21 11:06:48,570 - INFO - Coluna order_delivered_customer_date mudada para o tipo DateTime.
+2026-08-21 11:06:48,593 - INFO - Coluna order_estimated_delivery_date mudada para o tipo DateTime.
+2026-08-21 11:06:48,740 - INFO - Iniciando carregamento para a camada Silver
+2026-08-21 11:06:48,809 - INFO - Tabela customers salva com sucesso.
+2026-08-21 11:06:48,822 - INFO - Tabela geolocation salva com sucesso.
+2026-08-21 11:06:48,936 - INFO - Tabela orders salva com sucesso.
+2026-08-21 11:06:49,021 - INFO - Tabela order_items salva com sucesso.
+2026-08-21 11:06:49,068 - INFO - Tabela order_payments salva com sucesso.
+2026-08-21 11:06:49,159 - INFO - Tabela order_reviews salva com sucesso.
+2026-08-21 11:06:49,203 - INFO - Tabela products salva com sucesso.
+2026-08-21 11:06:49,206 - INFO - Tabela product_category_name_translation salva com sucesso.
+2026-08-21 11:06:49,212 - INFO - Tabela sellers salva com sucesso.
+2026-08-21 11:06:49,213 - INFO - Iniciando LOAD ao Bigquery.
+2026-08-21 11:06:49,297 - INFO - Inicianddo UPLOAD de customers_silver para o Bigquery.
+2026-08-21 11:07:02,304 - INFO - 99441 out of 99441 rows loaded.
+2026-08-21 11:07:02,305 - INFO - Sucesso Tabela olist_silver.customers_silver carregada.
+2026-08-21 11:07:02,305 - INFO - Inicianddo UPLOAD de geolocation_silver para o Bigquery.
+2026-08-21 11:07:10,860 - INFO - 19015 out of 19015 rows loaded.
+2026-08-21 11:07:10,860 - INFO - Sucesso Tabela olist_silver.geolocation_silver carregada.
+2026-08-21 11:07:10,861 - INFO - Inicianddo UPLOAD de orders_silver para o Bigquery.
+2026-08-21 11:07:22,569 - INFO - 99441 out of 99441 rows loaded.
+2026-08-21 11:07:22,569 - INFO - Sucesso Tabela olist_silver.orders_silver carregada.
+2026-08-21 11:07:22,569 - INFO - Inicianddo UPLOAD de order_items_silver para o Bigquery.
+2026-08-21 11:07:36,611 - INFO - 112650 out of 112650 rows loaded.
+2026-08-21 11:07:36,612 - INFO - Sucesso Tabela olist_silver.order_items_silver carregada.
+2026-08-21 11:07:36,612 - INFO - Inicianddo UPLOAD de order_payments_silver para o Bigquery.
+2026-08-21 11:07:44,389 - INFO - 103886 out of 103886 rows loaded.
+2026-08-21 11:07:44,390 - INFO - Sucesso Tabela olist_silver.order_payments_silver carregada.
+2026-08-21 11:07:44,390 - INFO - Inicianddo UPLOAD de order_reviews_silver para o Bigquery.
+2026-08-21 11:07:57,331 - INFO - 99224 out of 99224 rows loaded.
+2026-08-21 11:07:57,331 - INFO - Sucesso Tabela olist_silver.order_reviews_silver carregada.
+2026-08-21 11:07:57,331 - INFO - Inicianddo UPLOAD de products_silver para o Bigquery.
+2026-08-21 11:08:04,796 - INFO - 32951 out of 32951 rows loaded.
+2026-08-21 11:08:04,796 - INFO - Sucesso Tabela olist_silver.products_silver carregada.
+2026-08-21 11:08:04,797 - INFO - Inicianddo UPLOAD de product_category_name_translation_silver para o Bigquery.
+2026-08-21 11:08:13,227 - INFO - 71 out of 71 rows loaded.
+2026-08-21 11:08:13,228 - INFO - Sucesso Tabela olist_silver.product_category_name_translation_silver carregada.
+2026-08-21 11:08:13,228 - INFO - Inicianddo UPLOAD de sellers_silver para o Bigquery.
+2026-08-21 11:08:20,437 - INFO - 3095 out of 3095 rows loaded.
+2026-08-21 11:08:20,437 - INFO - Sucesso Tabela olist_silver.sellers_silver carregada.
