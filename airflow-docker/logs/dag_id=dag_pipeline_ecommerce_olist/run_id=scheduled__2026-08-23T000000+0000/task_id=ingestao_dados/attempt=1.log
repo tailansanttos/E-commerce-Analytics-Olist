@@ -1,0 +1,58 @@
+[2026-08-24T14:23:29.614+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-08-24T14:23:29.642+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_pipeline_ecommerce_olist.ingestao_dados scheduled__2026-08-23T00:00:00+00:00 [queued]>
+[2026-08-24T14:23:29.653+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_pipeline_ecommerce_olist.ingestao_dados scheduled__2026-08-23T00:00:00+00:00 [queued]>
+[2026-08-24T14:23:29.654+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2026-08-24T14:23:29.675+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): ingestao_dados> on 2026-08-23 00:00:00+00:00
+[2026-08-24T14:23:29.683+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=106) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-08-24T14:23:29.684+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'dag_pipeline_ecommerce_olist', 'ingestao_dados', 'scheduled__2026-08-23T00:00:00+00:00', '--job-id', '142', '--raw', '--subdir', 'DAGS_FOLDER/dag_pipeline.py', '--cfg-path', '/tmp/tmpl2nid9gb']
+[2026-08-24T14:23:29.686+0000] {standard_task_runner.py:63} INFO - Started process 108 to run task
+[2026-08-24T14:23:29.686+0000] {standard_task_runner.py:91} INFO - Job 142: Subtask ingestao_dados
+[2026-08-24T14:23:29.765+0000] {task_command.py:426} INFO - Running <TaskInstance: dag_pipeline_ecommerce_olist.ingestao_dados scheduled__2026-08-23T00:00:00+00:00 [running]> on host 615f54c85a69
+[2026-08-24T14:23:29.876+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Tailan' AIRFLOW_CTX_DAG_ID='dag_pipeline_ecommerce_olist' AIRFLOW_CTX_TASK_ID='ingestao_dados' AIRFLOW_CTX_EXECUTION_DATE='2026-08-23T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-08-23T00:00:00+00:00'
+[2026-08-24T14:23:29.879+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-08-24T14:23:31.550+0000] {log.py:232} WARNING - Downloading to /home/***/.cache/kagglehub/datasets/olistbr/brazilian-ecommerce/2.archive...
+[2026-08-24T14:23:31.563+0000] {logging_mixin.py:188} WARNING -   0%|          | 0.00/42.6M [00:00<?, ?B/s]
+[2026-08-24T14:23:32.327+0000] {logging_mixin.py:188} WARNING -   2%|2         | 1.00M/42.6M [00:00<00:31, 1.37MB/s]
+[2026-08-24T14:23:32.441+0000] {logging_mixin.py:188} WARNING -   5%|4         | 2.00M/42.6M [00:00<00:15, 2.75MB/s]
+[2026-08-24T14:23:32.602+0000] {logging_mixin.py:188} WARNING -   7%|7         | 3.00M/42.6M [00:01<00:11, 3.74MB/s]
+[2026-08-24T14:23:32.775+0000] {logging_mixin.py:188} WARNING -  12%|#1        | 5.00M/42.6M [00:01<00:06, 6.14MB/s]
+[2026-08-24T14:23:32.925+0000] {logging_mixin.py:188} WARNING -  16%|#6        | 7.00M/42.6M [00:01<00:04, 8.19MB/s]
+[2026-08-24T14:23:33.118+0000] {logging_mixin.py:188} WARNING -  21%|##1       | 9.00M/42.6M [00:01<00:03, 9.06MB/s]
+[2026-08-24T14:23:33.314+0000] {logging_mixin.py:188} WARNING -  26%|##5       | 11.0M/42.6M [00:01<00:03, 9.59MB/s]
+[2026-08-24T14:23:33.508+0000] {logging_mixin.py:188} WARNING -  30%|###       | 13.0M/42.6M [00:01<00:03, 9.97MB/s]
+[2026-08-24T14:23:33.698+0000] {logging_mixin.py:188} WARNING -  35%|###5      | 15.0M/42.6M [00:02<00:02, 10.3MB/s]
+[2026-08-24T14:23:33.833+0000] {logging_mixin.py:188} WARNING -  40%|###9      | 17.0M/42.6M [00:02<00:02, 11.5MB/s]
+[2026-08-24T14:23:34.068+0000] {logging_mixin.py:188} WARNING -  45%|####4     | 19.0M/42.6M [00:02<00:02, 10.6MB/s]
+[2026-08-24T14:23:34.312+0000] {logging_mixin.py:188} WARNING -  49%|####9     | 21.0M/42.6M [00:02<00:02, 9.85MB/s]
+[2026-08-24T14:23:34.434+0000] {logging_mixin.py:188} WARNING -  52%|#####1    | 22.0M/42.6M [00:02<00:02, 9.59MB/s]
+[2026-08-24T14:23:34.543+0000] {logging_mixin.py:188} WARNING -  54%|#####3    | 23.0M/42.6M [00:02<00:02, 9.60MB/s]
+[2026-08-24T14:23:34.661+0000] {logging_mixin.py:188} WARNING -  56%|#####6    | 24.0M/42.6M [00:03<00:02, 9.42MB/s]
+[2026-08-24T14:23:34.785+0000] {logging_mixin.py:188} WARNING -  59%|#####8    | 25.0M/42.6M [00:03<00:02, 9.18MB/s]
+[2026-08-24T14:23:34.970+0000] {logging_mixin.py:188} WARNING -  63%|######3   | 27.0M/42.6M [00:03<00:01, 9.96MB/s]
+[2026-08-24T14:23:35.143+0000] {logging_mixin.py:188} WARNING -  68%|######8   | 29.0M/42.6M [00:03<00:01, 10.7MB/s]
+[2026-08-24T14:23:35.342+0000] {logging_mixin.py:188} WARNING -  73%|#######2  | 31.0M/42.6M [00:03<00:01, 10.6MB/s]
+[2026-08-24T14:23:35.494+0000] {logging_mixin.py:188} WARNING -  77%|#######7  | 33.0M/42.6M [00:03<00:00, 11.5MB/s]
+[2026-08-24T14:23:35.660+0000] {logging_mixin.py:188} WARNING -  82%|########2 | 35.0M/42.6M [00:04<00:00, 11.8MB/s]
+[2026-08-24T14:23:35.887+0000] {logging_mixin.py:188} WARNING -  87%|########6 | 37.0M/42.6M [00:04<00:00, 10.9MB/s]
+[2026-08-24T14:23:36.085+0000] {logging_mixin.py:188} WARNING -  91%|#########1| 39.0M/42.6M [00:04<00:00, 10.8MB/s]
+[2026-08-24T14:23:36.278+0000] {logging_mixin.py:188} WARNING -  96%|#########6| 41.0M/42.6M [00:04<00:00, 10.8MB/s]
+[2026-08-24T14:23:36.403+0000] {logging_mixin.py:188} WARNING - 100%|##########| 42.6M/42.6M [00:04<00:00, 11.5MB/s]
+[2026-08-24T14:23:36.404+0000] {logging_mixin.py:188} WARNING - 100%|##########| 42.6M/42.6M [00:04<00:00, 9.24MB/s]
+[2026-08-24T14:23:36.405+0000] {log.py:232} WARNING - Extracting files...
+[2026-08-24T14:23:37.526+0000] {extract_data_kaggle.py:34} INFO - Arquivos copiados com sucesso.
+[2026-08-24T14:23:37.677+0000] {extract_data_kaggle.py:34} INFO - Arquivos copiados com sucesso.
+[2026-08-24T14:23:37.700+0000] {extract_data_kaggle.py:34} INFO - Arquivos copiados com sucesso.
+[2026-08-24T14:23:37.847+0000] {extract_data_kaggle.py:34} INFO - Arquivos copiados com sucesso.
+[2026-08-24T14:23:38.017+0000] {extract_data_kaggle.py:34} INFO - Arquivos copiados com sucesso.
+[2026-08-24T14:23:38.628+0000] {extract_data_kaggle.py:34} INFO - Arquivos copiados com sucesso.
+[2026-08-24T14:23:38.690+0000] {extract_data_kaggle.py:34} INFO - Arquivos copiados com sucesso.
+[2026-08-24T14:23:38.805+0000] {extract_data_kaggle.py:34} INFO - Arquivos copiados com sucesso.
+[2026-08-24T14:23:38.885+0000] {extract_data_kaggle.py:34} INFO - Arquivos copiados com sucesso.
+[2026-08-24T14:23:38.886+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-08-24T14:23:38.886+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-08-24T14:23:38.900+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=dag_pipeline_ecommerce_olist, task_id=ingestao_dados, run_id=scheduled__2026-08-23T00:00:00+00:00, execution_date=20260823T000000, start_date=20260824T142329, end_date=20260824T142338
+[2026-08-24T14:23:38.964+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-08-24T14:23:38.999+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-08-24T14:23:39.003+0000] {local_task_job_runner.py:222} INFO - ::endgroup::
