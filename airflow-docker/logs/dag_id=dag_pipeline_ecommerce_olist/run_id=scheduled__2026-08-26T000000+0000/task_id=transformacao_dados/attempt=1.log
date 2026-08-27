@@ -1,0 +1,45 @@
+[2026-08-27T14:55:51.779+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-08-27T14:55:51.804+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_pipeline_ecommerce_olist.transformacao_dados scheduled__2026-08-26T00:00:00+00:00 [queued]>
+[2026-08-27T14:55:51.814+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_pipeline_ecommerce_olist.transformacao_dados scheduled__2026-08-26T00:00:00+00:00 [queued]>
+[2026-08-27T14:55:51.814+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2026-08-27T14:55:51.831+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): transformacao_dados> on 2026-08-26 00:00:00+00:00
+[2026-08-27T14:55:51.839+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=135) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-08-27T14:55:51.841+0000] {standard_task_runner.py:63} INFO - Started process 137 to run task
+[2026-08-27T14:55:51.841+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'dag_pipeline_ecommerce_olist', 'transformacao_dados', 'scheduled__2026-08-26T00:00:00+00:00', '--job-id', '174', '--raw', '--subdir', 'DAGS_FOLDER/dag_pipeline.py', '--cfg-path', '/tmp/tmpqrlanvui']
+[2026-08-27T14:55:51.843+0000] {standard_task_runner.py:91} INFO - Job 174: Subtask transformacao_dados
+[2026-08-27T14:55:51.906+0000] {task_command.py:426} INFO - Running <TaskInstance: dag_pipeline_ecommerce_olist.transformacao_dados scheduled__2026-08-26T00:00:00+00:00 [running]> on host ed2695f59d10
+[2026-08-27T14:55:52.024+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Tailan' AIRFLOW_CTX_DAG_ID='dag_pipeline_ecommerce_olist' AIRFLOW_CTX_TASK_ID='transformacao_dados' AIRFLOW_CTX_EXECUTION_DATE='2026-08-26T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-08-26T00:00:00+00:00'
+[2026-08-27T14:55:52.026+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-08-27T14:55:52.027+0000] {transform.py:92} INFO - Iniciando trasnformações da camada Silver
+[2026-08-27T14:55:52.277+0000] {transform.py:33} INFO - Arquivo customers carregado com sucesso.
+[2026-08-27T14:55:52.495+0000] {transform.py:33} INFO - Arquivo geolocation carregado com sucesso.
+[2026-08-27T14:55:52.812+0000] {transform.py:33} INFO - Arquivo orders carregado com sucesso.
+[2026-08-27T14:55:52.948+0000] {transform.py:33} INFO - Arquivo order_items carregado com sucesso.
+[2026-08-27T14:55:53.017+0000] {transform.py:33} INFO - Arquivo order_payments carregado com sucesso.
+[2026-08-27T14:55:53.208+0000] {transform.py:33} INFO - Arquivo order_reviews carregado com sucesso.
+[2026-08-27T14:55:53.232+0000] {transform.py:33} INFO - Arquivo products carregado com sucesso.
+[2026-08-27T14:55:53.239+0000] {transform.py:33} INFO - Arquivo product_category_name_translation carregado com sucesso.
+[2026-08-27T14:55:53.249+0000] {transform.py:33} INFO - Arquivo sellers carregado com sucesso.
+[2026-08-27T14:55:53.295+0000] {transform.py:49} INFO - Coluna order_purchase_timestamp mudada para o tipo DateTime.
+[2026-08-27T14:55:53.325+0000] {transform.py:49} INFO - Coluna order_approved_at mudada para o tipo DateTime.
+[2026-08-27T14:55:53.356+0000] {transform.py:49} INFO - Coluna order_delivered_carrier_date mudada para o tipo DateTime.
+[2026-08-27T14:55:53.385+0000] {transform.py:49} INFO - Coluna order_delivered_customer_date mudada para o tipo DateTime.
+[2026-08-27T14:55:53.403+0000] {transform.py:49} INFO - Coluna order_estimated_delivery_date mudada para o tipo DateTime.
+[2026-08-27T14:55:53.502+0000] {transform.py:115} INFO - Iniciando carregamento para a camada Silver
+[2026-08-27T14:55:53.682+0000] {transform.py:119} INFO - Tabela customers salva com sucesso.
+[2026-08-27T14:55:53.731+0000] {transform.py:119} INFO - Tabela geolocation salva com sucesso.
+[2026-08-27T14:55:53.935+0000] {transform.py:119} INFO - Tabela orders salva com sucesso.
+[2026-08-27T14:55:54.092+0000] {transform.py:119} INFO - Tabela order_items salva com sucesso.
+[2026-08-27T14:55:54.199+0000] {transform.py:119} INFO - Tabela order_payments salva com sucesso.
+[2026-08-27T14:55:54.445+0000] {transform.py:119} INFO - Tabela order_reviews salva com sucesso.
+[2026-08-27T14:55:54.518+0000] {transform.py:119} INFO - Tabela products salva com sucesso.
+[2026-08-27T14:55:54.537+0000] {transform.py:119} INFO - Tabela product_category_name_translation salva com sucesso.
+[2026-08-27T14:55:54.577+0000] {transform.py:119} INFO - Tabela sellers salva com sucesso.
+[2026-08-27T14:55:54.622+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-08-27T14:55:54.623+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-08-27T14:55:54.634+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=dag_pipeline_ecommerce_olist, task_id=transformacao_dados, run_id=scheduled__2026-08-26T00:00:00+00:00, execution_date=20260826T000000, start_date=20260827T145551, end_date=20260827T145554
+[2026-08-27T14:55:54.695+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-08-27T14:55:54.732+0000] {taskinstance.py:3498} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2026-08-27T14:55:54.737+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

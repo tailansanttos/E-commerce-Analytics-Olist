@@ -1,0 +1,67 @@
+[2026-08-27T14:54:59.105+0000] {local_task_job_runner.py:120} INFO - ::group::Pre task execution logs
+[2026-08-27T14:54:59.147+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: dag_pipeline_ecommerce_olist.ingestao_dados scheduled__2026-08-26T00:00:00+00:00 [queued]>
+[2026-08-27T14:54:59.161+0000] {taskinstance.py:2076} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: dag_pipeline_ecommerce_olist.ingestao_dados scheduled__2026-08-26T00:00:00+00:00 [queued]>
+[2026-08-27T14:54:59.162+0000] {taskinstance.py:2306} INFO - Starting attempt 1 of 3
+[2026-08-27T14:54:59.213+0000] {taskinstance.py:2330} INFO - Executing <Task(PythonOperator): ingestao_dados> on 2026-08-26 00:00:00+00:00
+[2026-08-27T14:54:59.230+0000] {standard_task_runner.py:90} INFO - Running: ['***', 'tasks', 'run', 'dag_pipeline_ecommerce_olist', 'ingestao_dados', 'scheduled__2026-08-26T00:00:00+00:00', '--job-id', '172', '--raw', '--subdir', 'DAGS_FOLDER/dag_pipeline.py', '--cfg-path', '/tmp/tmpku8qiv51']
+[2026-08-27T14:54:59.232+0000] {standard_task_runner.py:91} INFO - Job 172: Subtask ingestao_dados
+[2026-08-27T14:54:59.238+0000] {warnings.py:110} WARNING - /home/***/.local/lib/python3.12/site-packages/***/task/task_runner/standard_task_runner.py:61: DeprecationWarning: This process (pid=81) is multi-threaded, use of fork() may lead to deadlocks in the child.
+  pid = os.fork()
+
+[2026-08-27T14:54:59.239+0000] {standard_task_runner.py:63} INFO - Started process 87 to run task
+[2026-08-27T14:54:59.584+0000] {task_command.py:426} INFO - Running <TaskInstance: dag_pipeline_ecommerce_olist.ingestao_dados scheduled__2026-08-26T00:00:00+00:00 [running]> on host ed2695f59d10
+[2026-08-27T14:54:59.842+0000] {taskinstance.py:2648} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='Tailan' AIRFLOW_CTX_DAG_ID='dag_pipeline_ecommerce_olist' AIRFLOW_CTX_TASK_ID='ingestao_dados' AIRFLOW_CTX_EXECUTION_DATE='2026-08-26T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2026-08-26T00:00:00+00:00'
+[2026-08-27T14:54:59.844+0000] {taskinstance.py:430} INFO - ::endgroup::
+[2026-08-27T14:55:02.092+0000] {log.py:232} WARNING - Downloading to /home/***/.cache/kagglehub/datasets/olistbr/brazilian-ecommerce/2.archive...
+[2026-08-27T14:55:02.105+0000] {logging_mixin.py:188} WARNING -   0%|          | 0.00/42.6M [00:00<?, ?B/s]
+[2026-08-27T14:55:03.682+0000] {logging_mixin.py:188} WARNING -   2%|2         | 1.00M/42.6M [00:01<01:05, 666kB/s]
+[2026-08-27T14:55:04.216+0000] {logging_mixin.py:188} WARNING -   5%|4         | 2.00M/42.6M [00:02<00:39, 1.09MB/s]
+[2026-08-27T14:55:04.808+0000] {logging_mixin.py:188} WARNING -   7%|7         | 3.00M/42.6M [00:02<00:31, 1.32MB/s]
+[2026-08-27T14:55:05.275+0000] {logging_mixin.py:188} WARNING -   9%|9         | 4.00M/42.6M [00:03<00:25, 1.58MB/s]
+[2026-08-27T14:55:05.451+0000] {logging_mixin.py:188} WARNING -  12%|#1        | 5.00M/42.6M [00:03<00:18, 2.15MB/s]
+[2026-08-27T14:55:05.720+0000] {logging_mixin.py:188} WARNING -  14%|#4        | 6.00M/42.6M [00:03<00:15, 2.53MB/s]
+[2026-08-27T14:55:05.933+0000] {logging_mixin.py:188} WARNING -  16%|#6        | 7.00M/42.6M [00:03<00:12, 3.01MB/s]
+[2026-08-27T14:55:06.076+0000] {logging_mixin.py:188} WARNING -  19%|#8        | 8.00M/42.6M [00:03<00:09, 3.71MB/s]
+[2026-08-27T14:55:06.273+0000] {logging_mixin.py:188} WARNING -  21%|##1       | 9.00M/42.6M [00:04<00:08, 4.10MB/s]
+[2026-08-27T14:55:06.456+0000] {logging_mixin.py:188} WARNING -  23%|##3       | 10.0M/42.6M [00:04<00:07, 4.49MB/s]
+[2026-08-27T14:55:06.626+0000] {logging_mixin.py:188} WARNING -  26%|##5       | 11.0M/42.6M [00:04<00:06, 4.89MB/s]
+[2026-08-27T14:55:06.896+0000] {logging_mixin.py:188} WARNING -  28%|##8       | 12.0M/42.6M [00:04<00:07, 4.54MB/s]
+[2026-08-27T14:55:07.159+0000] {logging_mixin.py:188} WARNING -  30%|###       | 13.0M/42.6M [00:05<00:07, 4.36MB/s]
+[2026-08-27T14:55:07.722+0000] {logging_mixin.py:188} WARNING -  33%|###2      | 14.0M/42.6M [00:05<00:09, 3.10MB/s]
+[2026-08-27T14:55:08.657+0000] {logging_mixin.py:188} WARNING -  38%|###7      | 16.0M/42.6M [00:06<00:10, 2.63MB/s]
+[2026-08-27T14:55:08.889+0000] {logging_mixin.py:188} WARNING -  49%|####9     | 21.0M/42.6M [00:06<00:03, 5.86MB/s]
+[2026-08-27T14:55:09.118+0000] {logging_mixin.py:188} WARNING -  52%|#####1    | 22.0M/42.6M [00:07<00:03, 5.63MB/s]
+[2026-08-27T14:55:09.716+0000] {logging_mixin.py:188} WARNING -  54%|#####3    | 23.0M/42.6M [00:07<00:05, 4.04MB/s]
+[2026-08-27T14:55:09.933+0000] {logging_mixin.py:188} WARNING -  59%|#####8    | 25.0M/42.6M [00:07<00:03, 5.02MB/s]
+[2026-08-27T14:55:10.161+0000] {logging_mixin.py:188} WARNING -  61%|######    | 26.0M/42.6M [00:08<00:03, 4.94MB/s]
+[2026-08-27T14:55:10.383+0000] {logging_mixin.py:188} WARNING -  63%|######3   | 27.0M/42.6M [00:08<00:03, 4.89MB/s]
+[2026-08-27T14:55:10.612+0000] {logging_mixin.py:188} WARNING -  66%|######5   | 28.0M/42.6M [00:08<00:03, 4.81MB/s]
+[2026-08-27T14:55:10.801+0000] {logging_mixin.py:188} WARNING -  68%|######8   | 29.0M/42.6M [00:08<00:02, 4.98MB/s]
+[2026-08-27T14:55:11.036+0000] {logging_mixin.py:188} WARNING -  70%|#######   | 30.0M/42.6M [00:08<00:02, 4.83MB/s]
+[2026-08-27T14:55:11.257+0000] {logging_mixin.py:188} WARNING -  73%|#######2  | 31.0M/42.6M [00:09<00:02, 4.80MB/s]
+[2026-08-27T14:55:11.544+0000] {logging_mixin.py:188} WARNING -  75%|#######5  | 32.0M/42.6M [00:09<00:02, 4.42MB/s]
+[2026-08-27T14:55:11.697+0000] {logging_mixin.py:188} WARNING -  77%|#######7  | 33.0M/42.6M [00:09<00:02, 4.91MB/s]
+[2026-08-27T14:55:11.872+0000] {logging_mixin.py:188} WARNING -  80%|#######9  | 34.0M/42.6M [00:09<00:01, 5.19MB/s]
+[2026-08-27T14:55:12.103+0000] {logging_mixin.py:188} WARNING -  82%|########2 | 35.0M/42.6M [00:09<00:01, 4.98MB/s]
+[2026-08-27T14:55:12.311+0000] {logging_mixin.py:188} WARNING -  84%|########4 | 36.0M/42.6M [00:10<00:01, 5.00MB/s]
+[2026-08-27T14:55:12.483+0000] {logging_mixin.py:188} WARNING -  87%|########6 | 37.0M/42.6M [00:10<00:01, 5.28MB/s]
+[2026-08-27T14:55:12.714+0000] {logging_mixin.py:188} WARNING -  89%|########9 | 38.0M/42.6M [00:10<00:00, 5.03MB/s]
+[2026-08-27T14:55:12.988+0000] {logging_mixin.py:188} WARNING -  91%|#########1| 39.0M/42.6M [00:10<00:00, 4.60MB/s]
+[2026-08-27T14:55:13.759+0000] {logging_mixin.py:188} WARNING -  94%|#########3| 40.0M/42.6M [00:11<00:01, 2.69MB/s]
+[2026-08-27T14:55:13.807+0000] {logging_mixin.py:188} WARNING - 100%|##########| 42.6M/42.6M [00:11<00:00, 3.82MB/s]
+[2026-08-27T14:55:13.810+0000] {log.py:232} WARNING - Extracting files...
+[2026-08-27T14:55:16.747+0000] {extract_data_kaggle.py:34} INFO - Arquivos copiados com sucesso.
+[2026-08-27T14:55:17.122+0000] {extract_data_kaggle.py:34} INFO - Arquivos copiados com sucesso.
+[2026-08-27T14:55:17.225+0000] {extract_data_kaggle.py:34} INFO - Arquivos copiados com sucesso.
+[2026-08-27T14:55:17.631+0000] {extract_data_kaggle.py:34} INFO - Arquivos copiados com sucesso.
+[2026-08-27T14:55:18.862+0000] {extract_data_kaggle.py:34} INFO - Arquivos copiados com sucesso.
+[2026-08-27T14:55:20.506+0000] {extract_data_kaggle.py:34} INFO - Arquivos copiados com sucesso.
+[2026-08-27T14:55:20.721+0000] {extract_data_kaggle.py:34} INFO - Arquivos copiados com sucesso.
+[2026-08-27T14:55:21.304+0000] {extract_data_kaggle.py:34} INFO - Arquivos copiados com sucesso.
+[2026-08-27T14:55:21.500+0000] {extract_data_kaggle.py:34} INFO - Arquivos copiados com sucesso.
+[2026-08-27T14:55:21.504+0000] {python.py:237} INFO - Done. Returned value was: None
+[2026-08-27T14:55:21.505+0000] {taskinstance.py:441} INFO - ::group::Post task execution logs
+[2026-08-27T14:55:21.540+0000] {taskinstance.py:1206} INFO - Marking task as SUCCESS. dag_id=dag_pipeline_ecommerce_olist, task_id=ingestao_dados, run_id=scheduled__2026-08-26T00:00:00+00:00, execution_date=20260826T000000, start_date=20260827T145459, end_date=20260827T145521
+[2026-08-27T14:55:21.664+0000] {local_task_job_runner.py:240} INFO - Task exited with return code 0
+[2026-08-27T14:55:21.751+0000] {taskinstance.py:3498} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2026-08-27T14:55:21.761+0000] {local_task_job_runner.py:222} INFO - ::endgroup::

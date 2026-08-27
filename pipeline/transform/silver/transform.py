@@ -2,9 +2,15 @@ import pandas as pd
 import logging
 from pathlib import Path
 
+raiz_projeto = Path(__file__).parent.parent.parent
+caminho_log = raiz_projeto / "logs" / "transform.log"
+caminho_log.parent.mkdir(parents=True, exist_ok=True)
+
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s',
-                    handlers=[logging.FileHandler('C:/E-commerce Analytics Olist/logs/main.log', encoding='utf-8'),
+                    handlers=[logging.FileHandler(caminho_log, encoding='utf-8'),
                                logging.StreamHandler()])
+
 
 
 

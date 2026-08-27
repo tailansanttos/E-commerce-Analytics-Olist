@@ -3,8 +3,14 @@ import os
 import pandas as pd
 from pathlib import Path
 
+
+raiz_projeto = Path(__file__).parent.parent.parent
+caminho_log = raiz_projeto / "logs" / "ingest_raw_to_data.log"
+caminho_log.parent.mkdir(parents=True, exist_ok=True)
+
+
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s',
-                    handlers=[logging.FileHandler('C:/E-commerce Analytics Olist/logs/extract_data.log', encoding='utf-8'),
+                    handlers=[logging.FileHandler(caminho_log, encoding='utf-8'),
                                logging.StreamHandler()])
 
 def raw_to_bronze():

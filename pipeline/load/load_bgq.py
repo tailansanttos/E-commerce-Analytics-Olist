@@ -4,12 +4,18 @@ import pandas_gbq as pbq
 from google.cloud import bigquery
 from pathlib import Path
 import logging
+from dotenv import load_dotenv
+
+load_dotenv()
+
+raiz_projeto = Path(__file__).parent.parent.parent
+caminho_log = raiz_projeto / "logs" / "load_bigquery.log"
+caminho_log.parent.mkdir(parents=True, exist_ok=True)
+
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s',
-                    handlers=[logging.FileHandler('C:/E-commerce Analytics Olist/logs/main.log', encoding='utf-8'),
+                    handlers=[logging.FileHandler(caminho_log, encoding='utf-8'),
                                logging.StreamHandler()])
-
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:/E-commerce Analytics Olist/projeto-olist-elt-edaa00bbd190.json"
 
 def load_silver_to_bigquery():
     client = bigquery.Client()
