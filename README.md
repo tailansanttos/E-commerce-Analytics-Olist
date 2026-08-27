@@ -56,3 +56,35 @@ O coração do projeto é o Apache Airflow rodando isolado em containers Docker.
  ┣ 📂 sql                   # Consultas SQL para modelagem do Data Warehouse
  ┣ 📜 .env.example          # Template de variáveis de ambiente
  ┗ 📜 README.md
+```
+
+🚀 Como Executar o Projeto
+1. Pré-requisitos
+Docker instalado na máquina.
+Uma conta no Google Cloud Platform (GCP) com a API do BigQuery ativada.
+Uma Service Account do GCP com permissões de Editor do BigQuery (Arquivo de chave .json).
+
+2. Configuração do Ambiente
+Clone o repositório para a sua máquina local:
+Bash
+git clone [https://github.com/tailansanttos/E-commerce-Analytics-Olist.git](https://github.com/tailansanttos/E-commerce-Analytics-Olist.git)
+cd E-commerce-Analytics-Olist
+Coloque o arquivo de credenciais da sua Service Account (sua-chave-gcp.json) dentro da pasta pipeline/.
+Em seguida, crie um arquivo chamado .env na raiz do projeto com o seguinte conteúdo, apontando para o caminho correto dentro do container:
+
+
+GOOGLE_APPLICATION_CREDENTIALS="/opt/airflow/pipeline/sua-chave-gcp.json"
+3. Subindo a Infraestrutura
+Inicie o cluster do Airflow via terminal:
+
+Bash
+cd airflow-docker
+docker-compose up -d
+Acesse a interface visual do Airflow no seu navegador:
+
+URL: http://localhost:8080
+Usuário: airflow
+Senha: airflow
+
+4. Execução da Pipeline
+No painel do Airflow, ligue o toggle da DAG dag_pipeline_ecommerce_olist (Unpause) e clique no botão Trigger DAG (ícone de Play). Você pode acompanhar a execução em tempo real pela aba Graph.
